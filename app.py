@@ -11,7 +11,7 @@ dataset = version.download("yolov8")
 
 image_dir = os.path.join(dataset.location, "train", "images")
 
-print("Daftar file di train/images:", os.listdir(image_dir)[:5])  # tampilkan 5 file pertama
+print("Daftar file di train/images:", os.listdir(image_dir)[:5])  
 
 sample_image = os.path.join(image_dir, os.listdir(image_dir)[0])
 
